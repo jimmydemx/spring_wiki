@@ -1,13 +1,14 @@
-package com.example.spring_wiki;
+package com.example.spring_wiki.config;
 
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 
 
-
+@ComponentScan("com.example")
 @SpringBootApplication
 public class SpringWikiApplication {
 
